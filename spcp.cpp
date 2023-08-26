@@ -11,7 +11,7 @@ int main(){
         cout<<"You are in Profit";
     }
     else if(sp==cp){
-        cout<<"No Profit and Loss";
+        cout<<"No Profit, No Loss";
     }
     else{
         cout<<"You are in Loss";
