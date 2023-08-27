@@ -8,13 +8,13 @@ int main(){
     cout<<"Enter the Selling Price of the Product: ";
     cin>>sp;
     if(sp>cp){
-        cout<<"You are in Profit";
+        cout<<"You are in Profit: "<<sp-cp;
     }
     else if(sp==cp){
-        cout<<"No Profit, No Loss";
+        cout<<"No Profit, No Loss: "<<sp-cp;
     }
     else{
-        cout<<"You are in Loss";
+        cout<<"You are in Loss: "<<cp-sp;
     }
     return 0;
 }
